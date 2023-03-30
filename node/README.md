@@ -7,13 +7,14 @@ The task is quite simple, you need to build a simple service which will fetch co
 ## Principles
 * Implement all with Typescript
 * Don't use OOP principles and SOA architecture. Instead, try to make it as much functional (FP style) as possible
-* Use Either data structure to make your errors explicit
 * Try to keep CPU complexity as little as possible
-* As we use fp-ts library for functional programming in our codebase - it would be a plus if you use it as well
 
+## Bonus points (not required):
+* Use Either data structure to make your errors explicit (not required)
+* As we use fp-ts library for functional programming in our codebase - it would be a plus if you use it as well (not required)
 
 ## Task
-* You should create a single HTTP e``ndpoint which accepts the ID of the event and returns list of tickets that are available for that event
+* You should create a single HTTP endpoint which accepts the ID of the event and returns list of tickets that are available for that event
 * Ticket data should contain these fields:
     * Section
     * Row
@@ -29,7 +30,7 @@ The task is quite simple, you need to build a simple service which will fetch co
 
 
 ## Task output
-* Link to repository with a codebase or ZIP file with a codebase
+* Link to repository with a codebase
 
 Wish you good luck,
 Roman.
