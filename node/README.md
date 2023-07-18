@@ -6,12 +6,12 @@ The task is quite simple, you need to build a simple service which will fetch co
 
 ## Principles
 * Implement all with Typescript
-* Don't use OOP principles and SOA architecture. Instead, try to make it as much functional (FP style) as possible
 * Try to keep CPU complexity as little as possible
+* Try to follow hexagonal architecture principles: separate business logic from third-party integrations, etc.
 
 ## Bonus points (not required):
-* Use Either data structure to make your errors explicit (not required)
-* As we use fp-ts library for functional programming in our codebase - it would be a plus if you use it as well (not required)
+* Use GraphQL as a way to query your service
+* Add e2e test that demonstrate that everything works as expected
 
 ## Task
 * You should create a single HTTP endpoint which accepts the ID of the event and returns list of tickets that are available for that event
@@ -21,9 +21,16 @@ The task is quite simple, you need to build a simple service which will fetch co
     * Seat number
     * Price
 
+## Definition of Done:
+* Link to repository with code is provided to FRT team
+* Service can be launched with a command `npm start`
+* Tests can be launched on any environment and they will be green
+* Tests are verifying that app works as expected
+* App can be queries through GraphQL endpoint to fetch available tickets for specific event ID.
+
 
 ## Website with tickets
-* URL: https://my.laphil.com/en/syos2/performance/7291
+* URL: https://my.laphil.com/en/syos2/package/1195 (if it doesn't have tickets anymore - please use any other event on this platform)
 * In order to see all tickets - click on "Any Best Available Seat" and then Continue
 
 ![img.png](img.png)
