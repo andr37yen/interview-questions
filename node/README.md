@@ -7,7 +7,7 @@ The task is quite simple, you need to build a simple service which will fetch co
 ## Principles
 * Implement all with Typescript
 * Try to keep CPU complexity as little as possible
-* Try to follow hexagonal architecture principles: separate business logic from third-party integrations, etc.
+* Try to follow layered architecture principles: separate business logic from third-party integrations, etc.
 
 ## Bonus points (not required):
 * Use GraphQL as a way to query your service
@@ -30,14 +30,13 @@ The task is quite simple, you need to build a simple service which will fetch co
 
 
 ## Website with tickets
-* URL: https://my.laphil.com/en/syos2/package/1195 (if it doesn't have tickets anymore - please use any other event on this platform)
-* In order to see all tickets - click on "Any Best Available Seat" and then Continue
+* URL: https://www.centertheatregroup.org/booking/syos?perf_no=21920&facility_no=10 (if it doesn't have tickets anymore - please use any other event on this platform)
 
-![img.png](img.png)
+![image.png](image.png)
 
 
 ## Task output
 * Link to repository with a codebase
 
 Wish you good luck,
-Roman.
+Andrew.
