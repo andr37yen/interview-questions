@@ -6,6 +6,7 @@ The task is quite simple, you need to build a simple service which will fetch co
 
 ## Principles
 * Implement all with Typescript
+* Implement with Nest.js
 * Try to keep CPU complexity as little as possible
 * Try to follow layered architecture principles: separate business logic from third-party integrations, etc.
 
